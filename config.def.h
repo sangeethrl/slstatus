@@ -69,7 +69,7 @@ static const struct arg args[] = {
   { netspeed_tx, "| 󰕒 %sB/s ] ", "wlp0s20f3"},
   { cpu_perc, "[ CPU %s%% ] ", NULL},
   { ram_perc, "[ RAM %s%% ] ", NULL},
-  { run_command, "[ TEMP %s ] ", "sensors | awk '/^Package/ {print $4}"},
+  { run_command, "[ TEMP %s ] ", "sensors | awk '/^Package/ {print $4}'"},
   { battery_perc, "[ BAT %s%% ] ", "BAT0"},
 	{ datetime, "%s",           "[ %F %T ]" },
 };
